@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_content_images",
+  "info": {
+    "name": "image",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
