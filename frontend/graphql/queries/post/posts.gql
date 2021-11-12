@@ -1,0 +1,11 @@
+query Posts {
+  posts {
+    id
+    title
+    slug
+    excerpt
+    image {
+      formats
+    }
+  }
+}
